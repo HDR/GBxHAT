@@ -3,7 +3,7 @@
 **A GBxCart RW in PiZero Hat format**
 
 
-Purchase on [OSHPark](https://oshpark.com/shared_projects/vM6Mm5Uu)
+Purchase on [OSHPark](https://oshpark.com/shared_projects/tci8x5sD)
 
 Uses the original schematic by [InsideGadgets](https://github.com/insidegadgets/GBxCart-RW) with some changes
 

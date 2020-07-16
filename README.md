@@ -9,4 +9,6 @@ Uses the Pi Zero HAT template by [Mike Lawrence](https://github.com/mikelawrence
 
 The CH340 was removed, as TX and RX are connected straight to the pi zero
 
+[Interactive BOM](https://martinrefseth.com/ibom/GBxHat)
+
 **Keep in mind that this is untested and has no software**

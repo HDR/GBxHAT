@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name GBxCart_RW_v1.3_Schematic-eagle-import)(type Legacy)(uri ${KIPRJMOD}/GBxHat.lib)(options "")(descr ""))
+)

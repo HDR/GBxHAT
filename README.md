@@ -2,6 +2,9 @@
 
 **A GBxCart RW in PiZero Hat format**
 
+
+Purchase on [OSHPark](https://oshpark.com/shared_projects/vM6Mm5Uu)
+
 Uses the original schematic by [InsideGadgets](https://github.com/insidegadgets/GBxCart-RW) with some changes
 
 Uses the Pi Zero HAT template by [Mike Lawrence](https://github.com/mikelawrence/RPi_Zero_pHat_Template)

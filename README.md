@@ -12,3 +12,10 @@ The CH340 was removed, as TX and RX are connected straight to the pi zero
 [Interactive BOM](https://martinrefseth.com/ibom/GBxHat)
 
 **Keep in mind that this is untested and has no software**
+
+
+## Images
+
+![](front.png)
+
+![](back.png)

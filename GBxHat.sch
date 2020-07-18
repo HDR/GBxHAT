@@ -61,8 +61,6 @@ Wire Wire Line
 	5375 3875 5275 3875
 Wire Wire Line
 	3200 9250 3300 9250
-Text Label 3200 9250 0    10   ~ 0
-VCC
 Wire Wire Line
 	3000 7650 3000 7750
 Text Label 3000 7650 0    10   ~ 0
@@ -469,28 +467,6 @@ Wire Wire Line
 Text Label 5400 9550 0    50   ~ 0
 ATMEGA_RX_OUT
 $Comp
-L GBxCart_RW_v1.3_Schematic-eagle-import:AVR_SPI_PRG_6 J1
-U 1 1 60683208
-P 2800 9350
-F 0 "J1" H 2630 9580 59  0000 L BNN
-F 1 "AVR_SPI_6" H 2540 9050 59  0000 L BNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2800 9350 50  0001 C CNN
-F 3 "" H 2800 9350 50  0001 C CNN
-	1    2800 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GBxCart_RW_v1.3_Schematic-eagle-import:VCC #P+05
-U 1 1 6A081B6E
-P 3300 9250
-F 0 "#P+05" H 3300 9250 50  0001 C CNN
-F 1 "VCC" H 3260 9390 59  0000 L BNN
-F 2 "" H 3300 9250 50  0001 C CNN
-F 3 "" H 3300 9250 50  0001 C CNN
-	1    3300 9250
-	1    0    0    -1  
-$EndComp
-$Comp
 L GBxCart_RW_v1.3_Schematic-eagle-import:GND #GND07
 U 1 1 8DA2BB24
 P 3300 9550
@@ -823,17 +799,6 @@ Text Label 2750 2425 0    50   ~ 0
 A5/MOSI
 Text Label 2750 2325 0    50   ~ 0
 A6/MISO
-$Comp
-L GBxCart_RW_v1.3_Schematic-eagle-import:VCC #P+012
-U 1 1 5F119D80
-P 9250 4300
-F 0 "#P+012" H 9250 4300 50  0001 C CNN
-F 1 "VCC" V 9275 4400 59  0000 L BNN
-F 2 "" H 9250 4300 50  0001 C CNN
-F 3 "" H 9250 4300 50  0001 C CNN
-	1    9250 4300
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9050 6900
 NoConn ~ 9150 6900
 NoConn ~ 9250 6900
@@ -1191,4 +1156,73 @@ Wire Wire Line
 	3875 4275 3725 4275
 Wire Wire Line
 	3725 4275 3725 4450
+NoConn ~ 9250 4300
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5F13C7A5
+P 8325 8350
+F 0 "MH1" H 8425 8396 50  0000 L CNN
+F 1 "MountingHole" H 8425 8305 50  0000 L CNN
+F 2 "Custom:RPi_Hat_Mounting_Hole" H 8325 8350 50  0001 C CNN
+F 3 "~" H 8325 8350 50  0001 C CNN
+	1    8325 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5F13D3DA
+P 8325 8575
+F 0 "MH2" H 8425 8621 50  0000 L CNN
+F 1 "MountingHole" H 8425 8530 50  0000 L CNN
+F 2 "Custom:RPi_Hat_Mounting_Hole" H 8325 8575 50  0001 C CNN
+F 3 "~" H 8325 8575 50  0001 C CNN
+	1    8325 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5F140B4F
+P 8325 8800
+F 0 "MH3" H 8425 8846 50  0000 L CNN
+F 1 "MountingHole" H 8425 8755 50  0000 L CNN
+F 2 "Custom:RPi_Hat_Mounting_Hole" H 8325 8800 50  0001 C CNN
+F 3 "~" H 8325 8800 50  0001 C CNN
+	1    8325 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5F144456
+P 8325 9000
+F 0 "MH4" H 8425 9046 50  0000 L CNN
+F 1 "MountingHole" H 8425 8955 50  0000 L CNN
+F 2 "Custom:RPi_Hat_Mounting_Hole" H 8325 9000 50  0001 C CNN
+F 3 "~" H 8325 9000 50  0001 C CNN
+	1    8325 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBxCart_RW_v1.3_Schematic-eagle-import:AVR_SPI_PRG_6 J1
+U 1 1 60683208
+P 2800 9350
+F 0 "J1" H 2630 9580 59  0000 L BNN
+F 1 "AVR_SPI_6" H 2540 9050 59  0000 L BNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2800 9350 50  0001 C CNN
+F 3 "" H 2800 9350 50  0001 C CNN
+	1    2800 9350
+	1    0    0    -1  
+$EndComp
+Text Label 3200 9250 0    10   ~ 0
+VCC
+$Comp
+L GBxCart_RW_v1.3_Schematic-eagle-import:VCC #P+05
+U 1 1 6A081B6E
+P 3300 9250
+F 0 "#P+05" H 3300 9250 50  0001 C CNN
+F 1 "VCC" H 3260 9390 59  0000 L BNN
+F 2 "" H 3300 9250 50  0001 C CNN
+F 3 "" H 3300 9250 50  0001 C CNN
+	1    3300 9250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -170,11 +170,7 @@ Wire Wire Line
 	3200 9350 3400 9350
 Text Label 3400 9350 0    50   ~ 0
 A5/MOSI
-Wire Wire Line
-	9700 2100 9700 2600
-Text Label 9700 2100 3    70   ~ 0
-AUDIO_IN
-Text Label 9700 2550 3    50   ~ 0
+Text Label 9700 2125 3    70   ~ 0
 AUDIO_IN
 Wire Wire Line
 	3700 7050 3600 7050
@@ -392,8 +388,6 @@ Wire Wire Line
 	9600 2100 9600 2600
 Wire Wire Line
 	9600 2600 9600 2700
-Wire Wire Line
-	9900 2600 9600 2600
 Text Label 9600 2100 3    70   ~ 0
 *RESET/CS2
 Text Label 9600 2700 3    50   ~ 0
@@ -781,12 +775,12 @@ Wire Wire Line
 $Comp
 L GBxCart_RW_v1.3_Schematic-eagle-import:GND #GND015
 U 1 1 5F15B7A0
-P 8975 7050
-F 0 "#GND015" H 8975 7050 50  0001 C CNN
-F 1 "GND" H 8875 6950 59  0000 L BNN
-F 2 "" H 8975 7050 50  0001 C CNN
-F 3 "" H 8975 7050 50  0001 C CNN
-	1    8975 7050
+P 8950 7050
+F 0 "#GND015" H 8950 7050 50  0001 C CNN
+F 1 "GND" H 8850 6950 59  0000 L BNN
+F 2 "" H 8950 7050 50  0001 C CNN
+F 3 "" H 8950 7050 50  0001 C CNN
+	1    8950 7050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1225,4 +1219,10 @@ F 3 "" H 3300 9250 50  0001 C CNN
 	1    3300 9250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9900 2600 9600 2600
+Text Label 9700 2525 3    50   ~ 0
+AUDIO_IN
+Wire Wire Line
+	9700 2100 9700 2600
 $EndSCHEMATC

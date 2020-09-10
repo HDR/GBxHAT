@@ -26,4 +26,4 @@ The CH340 was removed, as TX and RX are connected straight to the pi zero
 
 ## Notes
 
-- Please cut pin 4 on the pi if your hat is not the newest revision published July 18th 2020.
+- Please cut pin 4 on the pi if your hat is not the revision published after July 18th 2020.
